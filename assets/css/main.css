@@ -1,4 +1,5 @@
 
+
 .nav {
   position: fixed;
   top: 150px;
@@ -129,6 +130,52 @@ body{
 	opacity: 1;
 }
 
+.marquee3k {
+  font-family: arial;
+  background-color: yellow;
+}
+
+.marquee3k__copy {
+  padding: 20px;
+} 
+
+
+.marquee-left-top {
+  position: fixed;
+  left:50px;
+  top:0px;
+  width: 100vw;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+
+.marquee-right-top {
+  position: fixed;
+  right:0px;
+  top:0px;
+  width: 100vw;
+  transform: rotate(-90deg);
+    transform-origin: bottom right;
+    z-index: 99;
+}
+
+
+.marquee-top {
+  position: fixed;
+  left:0px;
+  top:0px;
+  width: 100vw;
+  z-index: 2;
+}
+
+.marquee-bottom {
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  width: 100vw;
+}
+
 
 /*.flex-container {
   padding: 30px;
@@ -156,5 +203,11 @@ body{
   color: white;
   font-weight: bold;
   font-size: 3em;
-  text-align: center;*/
+  text-align: center;
+
 }
+  */
+
+
+
+
