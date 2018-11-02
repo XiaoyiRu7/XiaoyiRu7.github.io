@@ -2,8 +2,8 @@
 
 .nav {
   position: fixed;
-  top: 150px;
-  left: 20px;
+  top: 120px;
+  left: 50px;
   z-index: 2;
   cursor: pointer;
   color: DodgerBlue;
@@ -44,7 +44,11 @@
   left: 0px;
 }
 .Click__list{
-margin: 20px;
+
+
+margin-top: 60px;
+margin-left: 50px;
+z-index: 2;
 
 color: DodgerBlue;
 	text-transform: uppercase;
@@ -101,6 +105,7 @@ body{
 
 .text {
 	position: absolute;
+
 	top: 100px;
 	left: 5px;
 
@@ -131,8 +136,11 @@ body{
 }
 
 .marquee3k {
-  font-family: arial;
-  background-color: yellow;
+    font-family: Orator std;
+
+background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  text-shadow: 1px 1px red;
+  
 }
 
 .marquee3k__copy {
@@ -174,6 +182,7 @@ body{
   left:0px;
   bottom:0px;
   width: 100vw;
+   z-index: 2;
 }
 
 

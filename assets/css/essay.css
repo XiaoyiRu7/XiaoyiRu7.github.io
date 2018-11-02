@@ -37,7 +37,7 @@ body{
 	background-image:url("../images/bg.gif");
 	
 	  background-position: center;
-	   background-size: cover;
+	  background-size:1000% 1000%;
 }
 
 
